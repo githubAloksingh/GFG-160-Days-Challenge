@@ -1,7 +1,7 @@
 #User function Template for python3
 
 class Solution:
-    def __init__(self):
+    def __init__(self): 
         self.result=[]
     def backtrack(self, index, arr, target,curr):
         if target==0:
