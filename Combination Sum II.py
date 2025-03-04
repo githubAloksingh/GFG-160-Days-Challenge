@@ -5,7 +5,7 @@ class Solution:
         self.result=[]
     def backtrack(self, index, arr, target,curr):
         if target==0:
-            self.result.append(curr[:])
+            self.result.append(curr[:]) 
             return 
         for i in range(index, len(arr)):
             if i>index and arr[i]==arr[i-1]:
