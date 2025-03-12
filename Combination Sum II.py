@@ -3,7 +3,7 @@
 class Solution:
     def __init__(self): 
         self.result=[]
-    def backtrack(self, index, arr, target,curr):
+    def backtrack(self, index, arr, target,curr): 
         if target==0:
             self.result.append(curr[:]) 
             return 
