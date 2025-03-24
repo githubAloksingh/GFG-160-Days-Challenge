@@ -1,6 +1,6 @@
 #User function Template for python3
 
-class Solution:
+class Solution: 
     def __init__(self): 
         self.result=[]
     def backtrack(self, index, arr, target,curr): 
